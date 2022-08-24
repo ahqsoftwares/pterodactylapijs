@@ -1,0 +1,10 @@
+{
+  "name": "pterodactylapi.js",
+  "version": "1.0.0",
+  "description": "The API wrapper around pterodactyl v1 api",
+  "main": "index.js",
+  "repository": "https://github.com/ahqsoftwares/pterodactylapijs",
+  "author": "AHQMiness",
+  "license": "MIT",
+  "private": false
+}
