@@ -1,6 +1,6 @@
 {
-  "name": "pterodactylapi.js",
-  "version": "1.0.0",
+  "name": "pterodactyl-api-script.js",
+  "version": "0.3.0",
   "description": "The API wrapper around pterodactyl v1 api",
   "main": "index.js",
   "repository": "https://github.com/ahqsoftwares/pterodactylapijs",
@@ -8,6 +8,8 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "axios": "^0.27.2"
+    "@faker-js/faker": "^7.4.0",
+    "node-fetch": "2",
+    "quickmongo": "^5.1.2"
   }
 }
