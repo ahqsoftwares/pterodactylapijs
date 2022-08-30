@@ -194,9 +194,8 @@ class API extends EventEmitter {
         }
 
         /**
-         * Get First Available Allocation
-         * @param {String} nodeId 
-         */
+          * ⚠️Non standard method, avoid using it
+          */
         async getAllocation(nodeId) {
                 let allocations = await this.rest(`nodes/${nodeId}/allocations?per_page=1200`, "get").then((data) => data.json()).then(json => json.data);
                 return allocations.find(({attributes}) => !attributes.assigned)?.attributes?.port;
@@ -205,7 +204,7 @@ class API extends EventEmitter {
         /**
          * creates a server
          * @param {String} dscUser 
-         * @param {Object} limits 
+         * @param {{cpu, memory, disk, io, swap}} limits 
          * @param {String} Nodeid
          * @param {Boolean} websiteJs 
          * @returns Server data

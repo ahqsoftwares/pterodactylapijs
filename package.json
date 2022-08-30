@@ -1,6 +1,6 @@
 {
   "name": "pterodactyl-api-script.js",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "The API wrapper around pterodactyl v1 api",
   "main": "index.js",
   "repository": "https://github.com/ahqsoftwares/pterodactylapijs",
